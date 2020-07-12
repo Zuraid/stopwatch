@@ -1,0 +1,71 @@
+body {
+	background-image:url(bg.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size:cover;
+	height:100%;
+	color:#F00;
+}
+
+h1 {
+  font-size: 40px;
+  
+  text-align: center;
+  line-height: 60px;
+  margin: 0;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:#F00;
+  text-shadow: 0 0 0px #fff, 0 0 50px yellow ;
+}
+
+.stopwatch {
+  display:grid;
+  width: 100%;
+  padding-top: 25px;
+  justify-items: center;
+  grid-row-gap: 30px;
+}
+
+.shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ text-shadow: 0 0 50px red;
+  height: 200px;
+  width: 500px;
+  border: 5px solid;
+  border-radius: 50%;
+ 
+}
+
+.time {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+#playButton {
+  display: block;
+}
+
+#pauseButton {
+  display:none;
+}
+
